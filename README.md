@@ -78,6 +78,7 @@ Additional user info fields from `qwc_config.user_infos` may be added to the JWT
 ```
 
 [Flask-Mail](https://pythonhosted.org/Flask-Mail/) is used for sending mails like password resets. These are the available options:
+
 * `MAIL_SERVER`: default ‘localhost’
 * `MAIL_PORT`: default 25
 * `MAIL_USE_TLS`: default False
